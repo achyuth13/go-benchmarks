@@ -3,7 +3,7 @@
 To run,
 cd passing-by
 
-##With Garbage Collector:
+#With Garbage Collector:
 go test -bench=. -count 1 -> With Garbage Collector
 -----
 goos: darwin
@@ -15,7 +15,7 @@ PASS
 ok      passing-by      0.708s
 
 
-##Without Garbage Collector
+#Without Garbage Collector
 go test -bench=. -count 1 -gcflags=-N
 ----
 goos: darwin
