@@ -4,8 +4,9 @@ To run,
 cd passing-by
 
 #With Garbage Collector:
-go test -bench=. -count 1 -> With Garbage Collector
 -----
+go test -bench=. -count 1 -> With Garbage Collector
+
 goos: darwin
 goarch: arm64
 pkg: passing-by
