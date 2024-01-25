@@ -3,9 +3,9 @@
 To run,
 cd passing-by
 
-#With Garbage Collector:
+With Garbage Collector
 -----
-go test -bench=. -count 1 -> With Garbage Collector
+$ go test -bench=. -count 1 -> With Garbage Collector
 
 goos: darwin
 goarch: arm64
@@ -16,9 +16,10 @@ PASS
 ok      passing-by      0.708s
 
 
-#Without Garbage Collector
-go test -bench=. -count 1 -gcflags=-N
+Without Garbage Collector
 ----
+$ go test -bench=. -count 1 -gcflags=-N
+
 goos: darwin
 goarch: arm64
 pkg: passing-by
@@ -27,4 +28,4 @@ BenchmarkPBV-8            921590              1392 ns/op
 PASS
 ok      passing-by      2.710s
 
-Go's garbage collector optimizes very well!
+Go's garbage collector collects very well!
