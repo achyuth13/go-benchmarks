@@ -1,5 +1,5 @@
 VarInt
-
+-------
 Databases use VarInt to store and transmit int64 type data effeciently. It helps the application become more 
 Storage Effecient, Network Effecient but there's a slight cost of CPU because of increase in computation.
 
