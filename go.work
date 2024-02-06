@@ -1,6 +1,9 @@
 go 1.21.5
 
 use (
+	./counting-primes-brute
+	./counting-primes-fair
+	./counting-primes-unfair
 	./passing-by
 	./varint
 )
